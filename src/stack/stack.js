@@ -32,6 +32,7 @@ class Stack {
   peek() {
     if (this.head === null) throw new Error("There is no item.");
     const node = this.head;
+    return node.item;
   }
 }
 
